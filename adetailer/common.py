@@ -95,14 +95,14 @@ def get_models(
         "person_yolov8s-seg.pt",
         "yolov8x-worldv2.pt",
     ]
-    models.update([
+    models.update({
         "yolov8x-worldv2-pt": get_model_file("yolov8x-worldv2-pt", local_model_dir),
         "face_yolov8n.pt": get_model_file("face_yolov8n.pt", local_model_dir),
         "hand_yolov8n.pt": get_model_file("hand_yolov8n.pt", local_model_dir),
         "face_yolov8s.pt": get_model_file("face_yolov8s.pt", local_model_dir),
         "person_yolov8n-seg.pt": get_model_file("person_yolov8n-seg.pt", local_model_dir),
         "person_yolov8s-seg.pt": get_model_file("person_yolov8s-seg.pt", local_model_dir),
-    ])
+    })
 
     models.update(
         {
