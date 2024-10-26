@@ -79,7 +79,7 @@ def get_models(
     *dirs: str | os.PathLike[str], huggingface: bool = True
 ) -> OrderedDict[str, str]:
     model_paths = []
-    local_model_dir = "S:/your/path/to/models/yolo_world_mirror"
+    local_model_dir = "/mnt/workspace/yolo-world-mirror"
 
     for dir_ in dirs:
         if not dir_:
